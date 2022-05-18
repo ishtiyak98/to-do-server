@@ -46,6 +46,7 @@ async function run() {
         const output = await taskCollection.find({}).toArray();
         res.send(output);
     })
+    
   } 
   finally {
     // await client.close();
